@@ -3,9 +3,10 @@ export const metadata = {
     title:"article Page"
 }
 
-const layout = ({ children }) => {
+const layout = () => {
   return (
-    <div style={{background:"blue",padding:"20px",borderRadius:"10px"}}>{children}</div>
+    <></>
+    // <div style={{background:"blue",padding:"20px",borderRadius:"10px"}}>{children}</div>
   )
 }
 
